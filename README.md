@@ -16,6 +16,8 @@ VLANs:
 VLAN 10 → 192.168.1.0/26
 VLAN 20 → 192.168.1.64/26
 VLAN 30 → 192.168.1.128/26
+
+
 Devices:
 L2 switches for access layer
 L3 switch for routing
@@ -34,7 +36,7 @@ Cisco ASA Firewall (5505)
 OSPF (Dynamic Routing)
 VLANs & Trunking
 NAT & ACLs (Firewall Security)
-GNS3 (Lab Environment)
+Packet Tracer  (Lab Environment)
 🔧 Key Configurations
 ✅ VLAN Segmentation
 Created VLANs to separate departments
@@ -63,13 +65,15 @@ NAT for internet access
 ACLs for traffic filtering
 object network LAN
 subnet 192.168.1.0 255.255.255.0
-nat (inside,outside) dynamic interface
+nat (inside,outside) dynamic interface 
+
 🔍 Testing & Verification
 Verified VLAN connectivity using ping
 Confirmed OSPF neighbors:
 show ip ospf neighbor
 Checked routing table:
 show ip route
+
 🚀 Results
 Successful communication between:
 VLANs (inter-VLAN routing)
